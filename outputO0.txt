@@ -1,0 +1,152 @@
+Hardware concurrency: 12 threads.
+
+Data size: 1000000 elements.
+
+Library algorithms:
+For std::seq time = 8.264 ms
+For std::par time = 3.054 ms
+For std::unseq time = 8.300 ms
+For std::par_unseq time = 2.972 ms
+
+Custom algorithm:
+Threads numbder (K) accomplished in Time (in ms)
+For K = 1 time = 5.194 ms
+For K = 2 time = 2.922 ms
+For K = 3 time = 1.698 ms
+For K = 4 time = 1.392 ms
+For K = 5 time = 1.107 ms
+For K = 6 time = 0.931 ms
+For K = 7 time = 1.274 ms
+For K = 8 time = 1.105 ms
+For K = 9 time = 1.042 ms
+For K = 10 time = 0.986 ms
+For K = 11 time = 0.914 ms
+For K = 12 time = 1.046 ms
+For K = 13 time = 1.308 ms
+For K = 14 time = 1.288 ms
+For K = 15 time = 1.446 ms
+For K = 16 time = 1.336 ms
+For K = 17 time = 1.180 ms
+For K = 18 time = 1.131 ms
+For K = 19 time = 1.173 ms
+For K = 20 time = 1.287 ms
+For K = 21 time = 1.075 ms
+For K = 22 time = 1.045 ms
+For K = 23 time = 1.176 ms
+For K = 24 time = 1.483 ms
+For K = 25 time = 1.252 ms
+For K = 26 time = 1.269 ms
+For K = 27 time = 1.401 ms
+For K = 28 time = 1.343 ms
+For K = 29 time = 1.270 ms
+For K = 30 time = 1.231 ms
+For K = 31 time = 1.306 ms
+For K = 32 time = 1.323 ms
+For K = 33 time = 1.291 ms
+For K = 34 time = 1.268 ms
+For K = 35 time = 1.722 ms
+For K = 36 time = 1.405 ms
+
+Best K = 11 (0.914 ms). K / CPU threads: 0.917
+
+
+Data size: 10000000 elements.
+
+Library algorithms:
+For std::seq time = 83.109 ms
+For std::par time = 28.395 ms
+For std::unseq time = 82.910 ms
+For std::par_unseq time = 28.642 ms
+
+Custom algorithm:
+Threads numbder (K) accomplished in Time (in ms)
+For K = 1 time = 45.129 ms
+For K = 2 time = 23.133 ms
+For K = 3 time = 15.882 ms
+For K = 4 time = 12.137 ms
+For K = 5 time = 9.767 ms
+For K = 6 time = 13.032 ms
+For K = 7 time = 11.402 ms
+For K = 8 time = 10.212 ms
+For K = 9 time = 9.606 ms
+For K = 10 time = 7.993 ms
+For K = 11 time = 8.410 ms
+For K = 12 time = 9.027 ms
+For K = 13 time = 8.427 ms
+For K = 14 time = 9.094 ms
+For K = 15 time = 8.626 ms
+For K = 16 time = 8.899 ms
+For K = 17 time = 8.815 ms
+For K = 18 time = 8.689 ms
+For K = 19 time = 8.350 ms
+For K = 20 time = 8.256 ms
+For K = 21 time = 7.993 ms
+For K = 22 time = 8.431 ms
+For K = 23 time = 9.430 ms
+For K = 24 time = 8.257 ms
+For K = 25 time = 9.254 ms
+For K = 26 time = 9.205 ms
+For K = 27 time = 8.878 ms
+For K = 28 time = 8.095 ms
+For K = 29 time = 7.822 ms
+For K = 30 time = 8.247 ms
+For K = 31 time = 8.343 ms
+For K = 32 time = 8.694 ms
+For K = 33 time = 7.738 ms
+For K = 34 time = 8.546 ms
+For K = 35 time = 8.103 ms
+For K = 36 time = 8.515 ms
+
+Best K = 33 (7.738 ms). K / CPU threads: 2.750
+
+
+Data size: 100000000 elements.
+
+Library algorithms:
+For std::seq time = 800.962 ms
+For std::par time = 265.694 ms
+For std::unseq time = 801.729 ms
+For std::par_unseq time = 262.583 ms
+
+Custom algorithm:
+Threads numbder (K) accomplished in Time (in ms)
+For K = 1 time = 441.191 ms
+For K = 2 time = 229.533 ms
+For K = 3 time = 162.894 ms
+For K = 4 time = 125.922 ms
+For K = 5 time = 101.418 ms
+For K = 6 time = 95.837 ms
+For K = 7 time = 92.413 ms
+For K = 8 time = 85.182 ms
+For K = 9 time = 83.249 ms
+For K = 10 time = 78.306 ms
+For K = 11 time = 69.728 ms
+For K = 12 time = 114.960 ms
+For K = 13 time = 79.888 ms
+For K = 14 time = 86.123 ms
+For K = 15 time = 76.424 ms
+For K = 16 time = 75.275 ms
+For K = 17 time = 78.270 ms
+For K = 18 time = 84.113 ms
+For K = 19 time = 80.180 ms
+For K = 20 time = 73.983 ms
+For K = 21 time = 74.254 ms
+For K = 22 time = 71.861 ms
+For K = 23 time = 68.655 ms
+For K = 24 time = 70.005 ms
+For K = 25 time = 80.465 ms
+For K = 26 time = 76.523 ms
+For K = 27 time = 74.628 ms
+For K = 28 time = 83.838 ms
+For K = 29 time = 79.349 ms
+For K = 30 time = 77.548 ms
+For K = 31 time = 76.305 ms
+For K = 32 time = 74.628 ms
+For K = 33 time = 72.052 ms
+For K = 34 time = 70.126 ms
+For K = 35 time = 71.865 ms
+For K = 36 time = 68.803 ms
+
+Best K = 23 (68.655 ms). K / CPU threads: 1.917
+
+Done.
